@@ -1,0 +1,8 @@
+C:\Users\vitas\Desktop\Counter\Server\bin\Debug\Server.exe.config
+C:\Users\vitas\Desktop\Counter\Server\bin\Debug\Server.exe
+C:\Users\vitas\Desktop\Counter\Server\bin\Debug\Server.pdb
+C:\Users\vitas\Desktop\Counter\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\vitas\Desktop\Counter\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\vitas\Desktop\Counter\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\vitas\Desktop\Counter\Server\obj\Debug\Server.exe
+C:\Users\vitas\Desktop\Counter\Server\obj\Debug\Server.pdb

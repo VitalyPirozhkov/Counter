@@ -1,0 +1,8 @@
+C:\Users\vitas\Desktop\Counter\TestClient\bin\Debug\TestClient.exe.config
+C:\Users\vitas\Desktop\Counter\TestClient\bin\Debug\TestClient.exe
+C:\Users\vitas\Desktop\Counter\TestClient\bin\Debug\TestClient.pdb
+C:\Users\vitas\Desktop\Counter\TestClient\obj\Debug\TestClient.csproj.AssemblyReference.cache
+C:\Users\vitas\Desktop\Counter\TestClient\obj\Debug\TestClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\vitas\Desktop\Counter\TestClient\obj\Debug\TestClient.csproj.CoreCompileInputs.cache
+C:\Users\vitas\Desktop\Counter\TestClient\obj\Debug\TestClient.exe
+C:\Users\vitas\Desktop\Counter\TestClient\obj\Debug\TestClient.pdb

@@ -1,0 +1,18 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Client" Height="350" Width="500">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="IP-адрес сервера:" Margin="5"/>
+            <TextBox Name="IpTextBox" Width="200" Margin="5" Text="localhost"/>
+            <TextBlock Text="Порт сервера:" Margin="5"/>
+            <TextBox Name="PortTextBox" Width="200" Margin="5" Text="8080"/>
+            <Button Name="ConnectButton" Content="Подключиться" Width="100" Margin="5" Click="ConnectButton_Click" />
+            <Button Name="StartButton" Content="Старт" Width="100" Margin="5" Click="StartButton_Click" IsEnabled="False" />
+            <Button Name="StopContinueButton" Content="Стоп" Width="100" Margin="5" Click="StopContinueButton_Click" IsEnabled="False" />
+            <Button Name="ResetButton" Content="Обнулить" Width="100" Margin="5" Click="ResetButton_Click" IsEnabled="False" />
+            <TextBlock Name="CounterText" Text="Счетчик: 0" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
