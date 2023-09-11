@@ -17,7 +17,22 @@ namespace Client
 
         private void InitializeSocketClient()
         {
-            socketClient = new SocketClient("localhost", 8080);
+            string serverAddress = System.Configuration.ConfigurationManager.AppSettings["Address"];
+            string portString = System.Configuration.ConfigurationManager.AppSettings["Port"];
+            if(string.IsNullOrEmpty(serverAddress) ) 
+            {
+                MessageBox.Show("Не удалось получить адрес сервера из конфигурационного файла. Используется адрес по умолчанию localhost");
+                serverAddress = "localhost";
+            }
+            int port;
+            if (!int.TryParse(portString, out port))
+            {
+                MessageBox.Show("Не удалось получить порт из конфигурационного файла. Используется порт по умолчанию 8080");
+                port = 8080;
+            }
+            IpTextBox.Text = serverAddress;
+            PortTextBox.Text = port.ToString();
+            socketClient = new SocketClient(serverAddress, port);
             socketClient.CounterUpdated += UpdateCounter;
             socketClient.RenameButton += RenameButton;
             socketClient.StartTimer();

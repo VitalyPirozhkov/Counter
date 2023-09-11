@@ -13,3 +13,12 @@ C:\Users\vitas\Desktop\Counter\Client\obj\Release\Client.csproj.GenerateResource
 C:\Users\vitas\Desktop\Counter\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
 C:\Users\vitas\Desktop\Counter\Client\obj\Release\Client.exe
 C:\Users\vitas\Desktop\Counter\Client\obj\Release\Client.pdb
+C:\Users\vitas\Desktop\Counter\Client\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\vitas\Desktop\Counter\Client\bin\Release\System.Security.AccessControl.dll
+C:\Users\vitas\Desktop\Counter\Client\bin\Release\System.Security.Permissions.dll
+C:\Users\vitas\Desktop\Counter\Client\bin\Release\System.Security.Principal.Windows.dll
+C:\Users\vitas\Desktop\Counter\Client\bin\Release\System.Configuration.ConfigurationManager.xml
+C:\Users\vitas\Desktop\Counter\Client\bin\Release\System.Security.AccessControl.xml
+C:\Users\vitas\Desktop\Counter\Client\bin\Release\System.Security.Permissions.xml
+C:\Users\vitas\Desktop\Counter\Client\bin\Release\System.Security.Principal.Windows.xml
+C:\Users\vitas\Desktop\Counter\Client\obj\Release\Client.csproj.CopyComplete

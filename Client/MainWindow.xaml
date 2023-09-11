@@ -5,9 +5,9 @@
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock Text="IP-адрес сервера:" Margin="5"/>
-            <TextBox Name="IpTextBox" Width="200" Margin="5" Text="localhost"/>
+            <TextBox Name="IpTextBox" Width="200" Margin="5" Text="localhost" IsEnabled="False"/>
             <TextBlock Text="Порт сервера:" Margin="5"/>
-            <TextBox Name="PortTextBox" Width="200" Margin="5" Text="8080"/>
+            <TextBox Name="PortTextBox" Width="200" Margin="5" Text="8080" IsEnabled="False"/>
             <Button Name="ConnectButton" Content="Подключиться" Width="100" Margin="5" Click="ConnectButton_Click" />
             <Button Name="StartButton" Content="Старт" Width="100" Margin="5" Click="StartButton_Click" IsEnabled="False" />
             <Button Name="StopContinueButton" Content="Стоп" Width="100" Margin="5" Click="StopContinueButton_Click" IsEnabled="False" />
