@@ -1,0 +1,8 @@
+C:\Users\vitas\Desktop\Counter\Server\bin\Release\Server.exe.config
+C:\Users\vitas\Desktop\Counter\Server\bin\Release\Server.exe
+C:\Users\vitas\Desktop\Counter\Server\bin\Release\Server.pdb
+C:\Users\vitas\Desktop\Counter\Server\obj\Release\Server.csproj.AssemblyReference.cache
+C:\Users\vitas\Desktop\Counter\Server\obj\Release\Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\vitas\Desktop\Counter\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
+C:\Users\vitas\Desktop\Counter\Server\obj\Release\Server.exe
+C:\Users\vitas\Desktop\Counter\Server\obj\Release\Server.pdb

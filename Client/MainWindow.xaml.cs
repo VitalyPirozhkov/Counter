@@ -66,11 +66,13 @@ namespace Client
             {
                 if (!socketClient.IsStoped)
                 {
+                    StartButton.IsEnabled = false;
                     socketClient.IsStoped = true;
                     await socketClient.SendCommandAsync("STOP");
                 }
                 else
                 {
+                    StartButton.IsEnabled = false;
                     socketClient.IsStoped = false;
                     await socketClient.SendCommandAsync("CONTINUE");
                 }
@@ -95,6 +97,7 @@ namespace Client
 
         private void RenameButton(string response)
         {
+            Dispatcher.Invoke(() => StartButton.IsEnabled = false);
             if (response == "STOP")
             {
                 Dispatcher.Invoke(() => StopContinueButton.Content = "Продолжить");
