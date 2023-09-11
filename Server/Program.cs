@@ -4,24 +4,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Configuration;
 namespace Server
 {
     public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите порт для сервера:");
-            if (int.TryParse(Console.ReadLine(), out int port))
+            int port;
+            string serverPortStr = ConfigurationManager.AppSettings["ServerPort"];
+            if (!int.TryParse(serverPortStr, out port))
             {
-                Counter counter = new Counter();
-                SocketServer server = new SocketServer(port, counter);
-                server.Start().Wait();
+                Console.WriteLine("В конфигурационном файле неверно указан порт, выбран порт по умолчанию 8080");
+                port = 8080;
             }
-            else
-            {
-                Console.WriteLine("Некорректный порт. Завершение работы.");
-            }
+            Counter counter = new Counter();
+            SocketServer server = new SocketServer(port, counter);
+            server.Start().Wait();
         }
     }
 }
